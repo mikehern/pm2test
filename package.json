@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mikehern/pm2test#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "pm2": "^2.10.4"
   }
 }
