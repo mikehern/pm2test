@@ -10,7 +10,7 @@ module.exports = {
       key: '~/60/sandbox/config/iteration0.pem',
       ref: 'origin/master',
       repo: 'git@github.com:mikehern/pm2test.git',
-      path: '/home/ubuntu/test/server/current',
+      path: '/home/ubuntu/test/server',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
