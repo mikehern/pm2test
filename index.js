@@ -4,7 +4,7 @@ const PORT = 3000;
 
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the PM2 Test on AWS.');
+  res.send('Welcome to the PM2 Test on AWS, part 2');
 })
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-13-57-35-120.us-west-1.compute.amazonaws.com',
+      host: 'ec2-54-215-251-17.us-west-1.compute.amazonaws.com',
       key: '~/60/sandbox/config/iteration0.pem',
       ref: 'origin/master',
       repo: 'git@github.com:mikehern/pm2test.git',
